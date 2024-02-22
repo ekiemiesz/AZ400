@@ -18,7 +18,7 @@ jobs:
     runs-on: self-hosted
     steps:
     #checkout the repository
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3.1.0
     #prepare runner for desired .net version SDK
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
